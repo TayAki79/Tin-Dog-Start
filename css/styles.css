@@ -33,7 +33,7 @@ body {
 /* 7. Changing the font-style for the h1 */
 h1 {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
   /* 14. Make the h1 white */
@@ -42,9 +42,9 @@ h1 {
 
 /* 16. make the img smaller, rotate and have a left margin on the left */
 .iphone-img {
-  width: 65%;
-  transform: rotate(30deg);
-  margin-left: 60px;
+  width: 60%;
+  transform: rotate(25deg);
+  /* margin-left: 60px; */
 }
 
 /* 17. give the top of the row section a bit of space */
