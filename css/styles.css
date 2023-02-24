@@ -1,3 +1,8 @@
+/* 15. Make the whole site have the Montserrat font-family */
+body {
+  font-family: "Montserrat";
+}
+
 /* 6. Changing the background color for the first section */
 #title {
   background-color: #ff4c68;
@@ -5,7 +10,20 @@
 
 /* 13. Enlarging the logo */
 .navbar-brand {
+  /* 18. Give the font more of a tinder logo look */
+  font-family: "Ubuntu";
   font-size: 2rem;
+}
+
+.nav-item {
+  /* 19. Giving our nav items more space between */
+  padding: 0 18px;
+}
+
+/* 20. Make the link items a little bit bigger but also lighter */
+.nav-link {
+  font-weight: 100;
+  font-size: 1.2rem;
 }
 
 .container-fluid {
@@ -22,12 +40,19 @@ h1 {
   color: white;
 }
 
+/* 16. make the img smaller, rotate and have a left margin on the left */
 .iphone-img {
   width: 65%;
   transform: rotate(30deg);
   margin-left: 60px;
 }
 
+/* 17. give the top of the row section a bit of space */
 .row {
-  margin-top: 50px;
+  margin-top: 4.5rem;
+}
+
+/* 21. Pushing the download buttons a bit down and have a little space between each other */
+.download-btn {
+  margin: 5% 3% 5% 0;
 }
