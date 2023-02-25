@@ -56,3 +56,29 @@ h1 {
 .download-btn {
   margin: 5% 3% 5% 0;
 }
+
+#features {
+  padding: 7% 15%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.fa-solid {
+  color: #ef8172;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 0 50px 50px 50px;
+}
