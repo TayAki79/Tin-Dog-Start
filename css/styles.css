@@ -6,6 +6,7 @@ body {
 /* 6. Changing the background color for the first section */
 #title {
   background-color: #ff4c68;
+  max-height: 770px;
 }
 
 /* 13. Enlarging the logo */
@@ -44,7 +45,6 @@ h1 {
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
-  /* margin-left: 60px; */
 }
 
 /* 17. give the top of the row section a bit of space */
@@ -58,7 +58,9 @@ h1 {
 }
 
 #features {
-  padding: 7% 15%;
+  padding: 4% 15% 7%;
+  background-color: white;
+  position: relative;
 }
 
 h3 {
@@ -115,4 +117,11 @@ h2 {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
