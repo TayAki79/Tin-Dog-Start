@@ -28,7 +28,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 80%;
 }
 
 /* 7. Changing the font-style for the h1 */
@@ -42,9 +42,15 @@ h1 {
 }
 
 /* 16. make the img smaller, rotate and have a left margin on the left */
+.iphone-img-parent {
+  position: relative;
+}
+
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* 17. give the top of the row section a bit of space */
@@ -124,4 +130,26 @@ h2 {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+/* ===================== Media Queries ==================== */
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+    max-height: 1440px;
+  }
+
+  .iphone-img-parent {
+    position: static;
+  } 
+
+  .iphone-img {
+    transform: none;
+    position: static;
+  }
+
+  #features {
+    position: static;
+  }
 }
