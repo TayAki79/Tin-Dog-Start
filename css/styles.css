@@ -132,6 +132,41 @@ h2 {
   text-align: center;
 }
 
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.cta-title {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.download-btn-bottom {
+  margin: 0 1%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.copyright {
+  color: #8f8f8f;
+}
+
+.social-icons {
+  color: black;
+  margin: 20px 6px;
+}
 /* ===================== Media Queries ==================== */
 
 @media (max-width: 991px) {
@@ -147,6 +182,10 @@ h2 {
   .iphone-img {
     transform: none;
     position: static;
+  }
+
+  .download-btn {
+    margin: 5% 3%;
   }
 
   #features {
