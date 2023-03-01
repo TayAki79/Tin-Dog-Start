@@ -45,6 +45,10 @@ h3 {
   color: #ef8172;
 }
 
+.peach-bg {
+  background-color: #ef8172;
+}
+
 .red-bg {
   background-color: #ff4c68;
 }
@@ -123,7 +127,6 @@ h3 {
 }
 
 .testimonials-section {
-  background-color: #ef8172;
   text-align: center;
 }
 
