@@ -1,27 +1,72 @@
-/* 15. Make the whole site have the Montserrat font-family */
+/* HTML Tags */
+
 body {
   font-family: "Montserrat";
 }
 
-/* 6. Changing the background color for the first section */
-#title {
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+/* Headings */
+
+.bold-headings {
+  font-weight: bold;
+}
+
+.line-height {
+  line-height: 1.5;
+}
+
+.big-headings {
+  font-size: 3rem;
+}
+
+.small-headings {
+  font-size: 1.5rem;
+}
+
+/* Coloring */
+
+.white-text {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.peach {
+  color: #ef8172;
+}
+
+.red-bg {
   background-color: #ff4c68;
+}
+
+.red-text {
+  color: #ff4c68;
+}
+/* Title Section */
+
+#title {
   max-height: 770px;
 }
 
-/* 13. Enlarging the logo */
 .navbar-brand {
-  /* 18. Give the font more of a tinder logo look */
   font-family: "Ubuntu";
   font-size: 2rem;
 }
 
 .nav-item {
-  /* 19. Giving our nav items more space between */
   padding: 0 18px;
 }
 
-/* 20. Make the link items a little bit bigger but also lighter */
 .nav-link {
   font-weight: 100;
   font-size: 1.2rem;
@@ -31,17 +76,6 @@ body {
   padding: 3% 15% 80%;
 }
 
-/* 7. Changing the font-style for the h1 */
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-  /* 14. Make the h1 white */
-  color: white;
-}
-
-/* 16. make the img smaller, rotate and have a left margin on the left */
 .iphone-img-parent {
   position: relative;
 }
@@ -53,34 +87,23 @@ h1 {
   right: 30%;
 }
 
-/* 17. give the top of the row section a bit of space */
 .row {
   margin-top: 4.5rem;
 }
 
-/* 21. Pushing the download buttons a bit down and have a little space between each other */
 .download-btn {
   margin: 5% 3% 5% 0;
 }
 
+/* Features Section */
+
 #features {
   padding: 4% 15% 7%;
-  background-color: white;
   position: relative;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-top: 15px;
 }
 
 .feature-text {
   color: #8f8f8f;
-}
-
-.fa-solid {
-  color: #ef8172;
 }
 
 .fa-solid:hover {
@@ -93,27 +116,15 @@ h3 {
 
 /* Testimonials */
 
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-#press {
+.testimonials-section {
   background-color: #ef8172;
-  text-align: center;;
+  text-align: center;
 }
 
 .press-logo {
@@ -135,15 +146,11 @@ h2 {
 /* Call to Action Section */
 
 #cta {
-  background-color: #ff4c68;
   text-align: center;
   padding: 5% 15%;
 }
 
 .cta-title {
-  color: white;
-  font-size: 3rem;
-  line-height: 1.5;
   margin-bottom: 40px;
 }
 
@@ -154,7 +161,6 @@ h2 {
 /* Footer */
 
 #footer {
-  background-color: white;
   text-align: center;
   padding: 5%;
 }
@@ -167,6 +173,7 @@ h2 {
   color: black;
   margin: 20px 6px;
 }
+
 /* ===================== Media Queries ==================== */
 
 @media (max-width: 991px) {
